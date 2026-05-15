@@ -1,0 +1,31 @@
+{
+  "packet_id": "erhu-prototype-qianjin-scale",
+  "instrument": "erhu-inspired two-string vertical fiddle",
+  "issue": "https://github.com/tonykoop/instrument-maker/issues/150",
+  "readiness": "prototype-only",
+  "readiness_level": "L2 scaffold",
+  "active_geometry": {
+    "dimension_basis": "qianjin-to-bridge speaking length",
+    "nominal_mm": 400,
+    "setup_range_mm": {
+      "min": 380,
+      "max": 420
+    }
+  },
+  "fabrication_authority": {
+    "current_authority": [
+      "docs/build-packets/erhu-prototype/drawings/erhu-qianjin-scale-starter.dxf"
+    ],
+    "authority_scope": "qianjin-to-bridge setup strip only",
+    "generated_images_authority": false
+  },
+  "uncertainties": [
+    "membrane material and tension",
+    "bridge height, mass, and foot geometry",
+    "string set gauge and tension",
+    "resonator body geometry",
+    "qianjin placement details beyond speaking-length span"
+  ],
+  "validation_gates": "docs/build-packets/erhu-prototype/validation.csv"
+}
+

@@ -1,0 +1,12 @@
+item_id,category,item,quantity,readiness,source_basis,notes
+ERH-BOM-001,string,inner string,1,TBD,measure/source,Select gauge/product after reference review and first setup tests.
+ERH-BOM-002,string,outer string,1,TBD,measure/source,Do not freeze gauge or tension before bowed response validation.
+ERH-BOM-003,setup,qianjin cord or stop,1,prototype,shop stock,Must support 380-420 mm qianjin-to-bridge setup adjustment.
+ERH-BOM-004,setup,bridge blank,3,prototype,make/test,Prepare multiple heights/masses for response comparison.
+ERH-BOM-005,body,resonator shell blank,1,TBD,reference review,Shape and dimensions require measured reference or design review.
+ERH-BOM-006,body,membrane material,3,TBD,source/test,Material and tension are unresolved response variables.
+ERH-BOM-007,neck,neck/rod blank,1,TBD,reference review,Length is not active string scale; fit around qianjin and body geometry.
+ERH-BOM-008,hardware,tuning pegs or geared tuners,2,prototype,buy/make,Prototype may use serviceable tuners before traditional peg refinement.
+ERH-BOM-009,finish,temporary finish/sealer,1,prototype,shop stock,Use reversible finish on first prototype where possible.
+ERH-BOM-010,measurement,setup ruler or scale strip,1,canonical starter,DXF,Use drawing starter to mark 380/400/420 mm qianjin-to-bridge references.
+

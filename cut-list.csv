@@ -1,0 +1,7 @@
+part_id,part,material,qty,starter_dimension_mm,operation,authority,notes
+ERH-CUT-001,setup scale strip,thin plywood/acrylic/card,1,440 x 25 x 3,laser/CNC/print,DXF starter,Marks 380 400 and 420 mm qianjin-to-bridge references only.
+ERH-CUT-002,bridge test blank A,maple/bamboo/hardwood,1,TBD,hand-fit,measure-fit,First bridge height and mass are experimental.
+ERH-CUT-003,bridge test blank B,maple/bamboo/hardwood,1,TBD,hand-fit,measure-fit,Second bridge variant for response comparison.
+ERH-CUT-004,resonator body blank,wood or prototype shell,1,TBD,rough build,reference review,Do not infer body dimensions from the scale strip.
+ERH-CUT-005,neck/rod blank,hardwood,1,TBD,rough build,reference review,Set length after body and qianjin placement are drawn.
+ERH-CUT-006,membrane retaining test ring,wood/bamboo/synthetic fixture,1,TBD,hand-fit,measure-fit,Membrane seat requires test fitting and tension notes.

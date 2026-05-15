@@ -1,0 +1,9 @@
+gate_id,gate,type,required_status,pass_criteria,evidence_to_record,blocks_promotion
+ERH-VAL-001,qianjin-to-bridge scale,geometry,required,Installed speaking length is within 380-420 mm and nominal target is documented,Photo plus ruler/caliper measurement,yes
+ERH-VAL-002,no long-scale canonical drift,documentation,required,No active CAD/BOM/design table uses the archived long-scale value as erhu geometry,Packet review note,yes
+ERH-VAL-003,membrane response,acoustic,required,Both strings produce repeatable bowed response with membrane installed,Audio/tuner capture and membrane notes,yes
+ERH-VAL-004,bridge comparison,setup,required,At least two bridge variants are measured and compared,Bridge height mass photo and response notes,yes
+ERH-VAL-005,string set evidence,sourcing,required,String gauges or product IDs are recorded,Packaging/source photo or supplier link,yes
+ERH-VAL-006,playability window,ergonomics,required,Player can stop/pull strings through usable pitch range without unsafe action,Setup notes and action measurements,yes
+ERH-VAL-007,visual authority,documentation,required,Generated images are labeled concept only and DXF/CAD/measurements remain authority,Visual register or review note,yes
+

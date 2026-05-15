@@ -1,0 +1,8 @@
+source_id,item,source_type,status,acceptance_check,notes
+ERH-SRC-001,erhu string set,buy,TBD,Record product ID gauge and installed tuning,Do not substitute anonymous strings without measurement.
+ERH-SRC-002,membrane material,buy/test,TBD,Record material thickness/tension/attachment,Membrane choice is a prototype risk.
+ERH-SRC-003,bridge material,make/test,prototype,Record height mass and response,Prepare several bridge variants.
+ERH-SRC-004,reference instrument dimensions,measure/review,TBD,Document source photos or direct measurements,Needed before body geometry becomes canonical.
+ERH-SRC-005,tuning hardware,buy/make,prototype,Stable tuning through test session,Traditional peg design can be refined later.
+ERH-SRC-006,DXF setup strip,make,ready,Verify 380 400 and 420 mm marks,Scale strip is setup authority only.
+
