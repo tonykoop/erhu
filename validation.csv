@@ -9,3 +9,7 @@ ERH-VAL-007,visual authority,documentation,required,Generated images are labeled
 ERH-VAL-008,material legality and durability,material,required,Membrane/string/body materials are legal ethical stable and suitable for the shop environment,Material source notes humidity notes and failure observations,yes
 ERH-VAL-009,V5 provenance,documentation,required,MCP/tool provenance log exists and names authority limits for CAD DXF visuals and analysis,cad/mcp-session-log.md review,yes
 ERH-VAL-010,Wolfram/runtime honesty,analysis,required,Computational notes are source-only unless a Wolfram run log and outputs are committed,wolfram-study-notes.md or future run log,yes
+ERH-VAL-011,contact-point measurement plan,geometry,required,Inner and outer qianjin-to-bridge spans are measured from contact point to contact point,qianjin-measurement-plan.md plus ruler/caliper photos,yes
+ERH-VAL-012,resonator authority gates,documentation,required,Body membrane bridge-contact and joinery geometry remain blocked until measured or reviewed authority exists,resonator-authority-gates.csv review note,yes
+ERH-VAL-013,string/source assumption gate,sourcing,required,String gauge material product ID installed tuning and bowed response are recorded before pitch or tension claims,string-source-assumptions.csv plus source photos/tuner evidence,yes
+ERH-VAL-014,anti-violin-family overclaim review,documentation,required,No active artifact treats violin nut-to-bridge scale total instrument length or generated silhouette as erhu speaking length,Packet review note with search evidence,yes

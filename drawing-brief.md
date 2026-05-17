@@ -26,6 +26,10 @@ recording a revision and validation result.
 4. Membrane retaining method with tension/attachment notes.
 5. Full assembly drawing only after the first prototype passes validation gates.
 
+Before any resonator drawing is promoted, check `resonator-authority-gates.csv`.
+The setup-strip DXF does not imply body outline, membrane opening, wall
+thickness, bridge-contact area, neck/body joinery, or full assembly authority.
+
 ## Visual Authority Rule
 
 Use DXF, CAD, design tables, measured templates, or reviewed drawings as

@@ -5,4 +5,6 @@ ERH-SRC-003,bridge material,make/test,prototype,Record height mass and response,
 ERH-SRC-004,reference instrument dimensions,measure/review,TBD,Document source photos or direct measurements,Needed before body geometry becomes canonical.
 ERH-SRC-005,tuning hardware,buy/make,prototype,Stable tuning through test session,Traditional peg design can be refined later.
 ERH-SRC-006,DXF setup strip,make,ready,Verify 380 400 and 420 mm marks,Scale strip is setup authority only.
-
+ERH-SRC-007,string source register,document,planning,Record course product ID gauge material source and substitute rationale,string-source-assumptions.csv defines required source evidence before pitch or tension claims.
+ERH-SRC-008,resonator authority evidence,measure/review,TBD,Record measured body membrane opening wall thickness and reviewed drawing status,resonator-authority-gates.csv blocks body CAD/DXF promotion until this exists.
+ERH-SRC-009,qianjin measurement evidence,measure,TBD,Record contact-point ruler/caliper photo for inner and outer strings,qianjin-measurement-plan.md defines the measurement protocol.

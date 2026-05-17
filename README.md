@@ -18,6 +18,9 @@ setup.
 | `sourcing.csv` | Buy/make/measure sources and acceptance checks. |
 | `validation.csv` | Pass/fail gates before any dimensions are promoted. |
 | `validation-loop.csv` | Measurement loop for qianjin, bridge, membrane, string, and acoustic gates. |
+| `qianjin-measurement-plan.md` | Contact-point measurement protocol and anti-violin-scale review rules. |
+| `resonator-authority-gates.csv` | Resonator, membrane, bridge-contact, and joinery gates before body CAD/DXF promotion. |
+| `string-source-assumptions.csv` | Explicit string/source assumptions and evidence required before tuning or tension claims. |
 | `family-spec.csv` | Huqin/string-family starter rows with qianjin-to-bridge as the governing measurement. |
 | `fabrication-notes.md` | Setup-first fabrication notes with material/acoustic gates. |
 | `drawing-brief.md` | CAD/DXF authority notes and drawing tasks. |
@@ -37,6 +40,8 @@ setup.
 - Nominal speaking length: `400 mm`
 - Setup range: `380-420 mm`
 - Dimension basis: qianjin-to-bridge speaking length
+- Required contact points: qianjin contact point to bridge contact point on
+  each string course
 - V5 readiness: L2 candidate until measured tone, response, membrane, bridge,
   string-set, CAD/DXF review, and setup data are recorded
 
@@ -55,3 +60,11 @@ Current fabrication authority is limited to the qianjin-to-bridge setup scale:
 
 L3/L4 promotion is blocked until measured geometry, reviewed CAD/DXF, acoustic
 response, material behavior, and build evidence are recorded.
+
+Round 21 B2 adds explicit measurement and source gates for the next pass:
+
+- `qianjin-measurement-plan.md` defines the installed measurement protocol.
+- `resonator-authority-gates.csv` blocks body and membrane geometry promotion
+  until measured/reviewed resonator evidence exists.
+- `string-source-assumptions.csv` blocks pitch, tension, and scale claims unless
+  the installed string source and bowed response are recorded.

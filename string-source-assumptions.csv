@@ -1,0 +1,6 @@
+assumption_id,course,starter_assumption,allowed_claim,required_source_evidence,validation_method,blocks_promotion_if_missing
+STR-SRC-001,inner,Two-course erhu-style stringing with inner and outer courses,Packet may plan two bowed strings only,Product ID gauge/material packaging photo or supplier spec,Tune and bow at measured qianjin-to-bridge span,yes
+STR-SRC-002,outer,Outer course is paired with inner course for response testing,No tension or pitch recommendation until source is recorded,Product ID gauge/material packaging photo or supplier spec,Tune and bow at measured qianjin-to-bridge span,yes
+STR-SRC-003,both,Starter 380-420 mm setup range may be tested with selected strings,Range is a prototype window not a final erhu scale,Installed length photo plus tuner/audio capture,Compare response at measured span and document one variable change,yes
+STR-SRC-004,both,String tension is unknown before installed testing,Do not publish tension values from violin-family assumptions,String material/gauge plus measured pitch and observed feel,Tuner/audio capture and playability notes,yes
+STR-SRC-005,both,String source may be traditional erhu set or prototype substitute,Substitute is allowed only when labeled as prototype,Reason for substitute source and compatibility notes,Record response and failure/fit notes before recommendation,yes
