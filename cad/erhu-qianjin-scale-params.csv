@@ -1,0 +1,5 @@
+parameter,value,unit,authority_scope,measurement_status,notes
+lower_setup_bound,380,mm,qianjin-to-bridge setup strip,pending_measurement,Lower starter setup mark
+nominal_setup_target,400,mm,qianjin-to-bridge setup strip,pending_measurement,Nominal starter target before measured response
+upper_setup_bound,420,mm,qianjin-to-bridge setup strip,pending_measurement,Upper starter setup mark
+guard_extension,20,mm,setup strip margin,starter,Extra visual margin past the upper setup bound

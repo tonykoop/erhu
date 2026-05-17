@@ -1,0 +1,5 @@
+artifact_id,path,artifact_kind,role,authority,derived_from,dimension_claim,notes
+DT-001,cad/erhu-qianjin-scale-params.csv,design_table,design_table,fabrication,,derived_from_authority,Controls only the 380/400/420 mm qianjin-to-bridge setup marks
+CAD-001,cad/erhu-qianjin-scale.scad,cad,fabrication_geometry,derived_preview,DT-001,derived_from_authority,Source-only OpenSCAD starter not executed in this lane
+DXF-001,drawings/erhu-qianjin-scale-starter.dxf,dxf,dimensioned_drawing,derived_preview,DT-001,derived_from_authority,Existing mainline setup-strip DXF retained; not full instrument geometry
+IMG-PROMPT-001,visual-bom-brief.md,image_gen_2_prompt,visual_bom,concept_only,,none,Prompt only; no generated image output committed

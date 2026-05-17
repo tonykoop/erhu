@@ -2,8 +2,8 @@
 
 Issue: `tonykoop/instrument-maker#150`
 
-Readiness: prototype-only, L2 scaffold. Use this packet to build and measure
-an erhu-inspired prototype, not to cut a production-ready instrument.
+Status: L2 V5 build-packet candidate. Use this packet to plan and measure an
+erhu-inspired prototype, not to cut a production-ready instrument.
 
 ## Canonical Geometry
 
@@ -43,12 +43,27 @@ This packet is intended to answer first-build questions:
 - What measured body, bridge, qianjin, and membrane values should be promoted
   into the next packet?
 
-## Fabrication Authority
+## V5 Fabrication Authority
 
-The DXF starter is authoritative only for the qianjin-to-bridge scale marker
-and setup ruler. Body shape, membrane seat, neck joinery, and bridge geometry
-remain measured/reference-reviewed work. Generated images are concept support
-only and must not be treated as CAD, DXF, cut templates, or measured drawings.
+The current fabrication authority is deliberately narrow:
+
+| Artifact | Authority | Scope |
+| --- | --- | --- |
+| `cad/erhu-qianjin-scale-params.csv` | design table | 380/400/420 mm qianjin-to-bridge setup marks only. |
+| `drawings/erhu-qianjin-scale-starter.dxf` | retained setup drawing | Existing mainline DXF evidence for the setup strip; not full instrument geometry. |
+| `cad/erhu-qianjin-scale.scad` | source-only CAD starter | OpenSCAD source for review; not executed in this lane. |
+
+Body shape, membrane seat, neck joinery, peg geometry, string set, qianjin
+height, and bridge geometry remain measured/reference-reviewed work. Generated
+images are concept support only and must not be treated as CAD, DXF, cut
+templates, measured drawings, or setup evidence.
+
+## V5 Provenance
+
+Tool and MCP provenance is recorded in `cad/mcp-session-log.md`. Rows with
+`session_id=unknown` identify existing or source-only artifacts whose original
+tool session is not available. That log is review evidence only; it does not
+promote the packet beyond L2.
 
 ## Required Measurements Before Promotion
 
@@ -63,3 +78,5 @@ Record these values before changing readiness beyond prototype-only:
 | open-string pitch and stable range | Tuner/audio capture under repeatable bowing. |
 | action at qianjin and bridge | Clearance measurements and playability notes. |
 
+See `validation-loop.csv` and `risks.md` for the V5 gates that block L3/L4
+promotion.
