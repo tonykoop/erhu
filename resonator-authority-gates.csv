@@ -5,4 +5,3 @@ RES-GATE-003,membrane_material,TBD,source_test_pending,Source legality/ethics th
 RES-GATE-004,bridge_contact_area,TBD,prototype_bridge_tests,Bridge foot dimensions membrane contact photo and response comparison,no,Bridge authority requires measured bridge plus membrane response
 RES-GATE-005,neck_body_joinery,TBD,shop_review_pending,Measured or reviewed CAD/DXF with qianjin and bridge reference lines,no,Joinery must not be copied from concept visuals
 RES-GATE-006,full_resonator_dxf,TBD,not_started,Shop-reviewed DXF/CAD derived from measured resonator and membrane data,no,Current DXF authorizes only setup strip marks
-

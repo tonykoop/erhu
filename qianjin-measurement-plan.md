@@ -45,4 +45,3 @@ starter setup window until a physical setup is measured and logged.
 | QJ-RULE-002 | Open pitch and bowed response are linked to the measured span and string source. | A scale length is promoted from drawing marks alone. | Treat the drawing as setup aid only. |
 | QJ-RULE-003 | Resonator and membrane dimensions are recorded as their own evidence chain. | Body or membrane geometry is inferred from the qianjin-to-bridge span. | Add measured resonator drawing or keep body geometry TBD. |
 | QJ-RULE-004 | The review explicitly checks for violin-family nut-to-bridge assumptions. | Any active file uses violin scale, nut position, or total instrument length as erhu speaking length. | Block promotion and correct the file before PR review. |
-
