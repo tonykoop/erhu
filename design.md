@@ -43,6 +43,21 @@ This packet is intended to answer first-build questions:
 - What measured body, bridge, qianjin, and membrane values should be promoted
   into the next packet?
 
+## Round 21 B2 Measurement Layer
+
+The next planning layer separates three evidence chains that are easy to blur:
+
+| Chain | Governing file | What can be claimed now | What remains blocked |
+| --- | --- | --- | --- |
+| qianjin-to-bridge scale | `qianjin-measurement-plan.md` | A starter `380-420 mm` contact-point measurement window. | Final installed length, action, and pitch-response claims. |
+| resonator and membrane authority | `resonator-authority-gates.csv` | Resonator geometry is an unresolved prototype variable. | Body, membrane seat, wall thickness, and joinery CAD/DXF. |
+| string/source assumptions | `string-source-assumptions.csv` | Two-course erhu-style stringing is planned for testing. | Gauge, tension, source recommendation, and target tuning claims. |
+
+Promotion requires direct installed measurements and response evidence. A
+reviewer should fail the packet if any active artifact treats violin-family
+nut-to-bridge scale, total instrument length, or a generated silhouette as the
+erhu speaking-length authority.
+
 ## V5 Fabrication Authority
 
 The current fabrication authority is deliberately narrow:
@@ -72,7 +87,9 @@ Record these values before changing readiness beyond prototype-only:
 | Measurement | Required evidence |
 | --- | --- |
 | qianjin-to-bridge length | Caliper or ruler measurement in millimeters. |
+| qianjin contact point | Photo and note showing the actual string contact point, not just the wrap edge. |
 | bridge height and mass | Measured bridge with photo and notes. |
+| resonator and membrane opening | Measured/reviewed drawing before body CAD/DXF promotion. |
 | membrane material and tension method | Material source, attachment method, and observed response. |
 | string gauges or product IDs | Source evidence plus installed tuning/tension notes. |
 | open-string pitch and stable range | Tuner/audio capture under repeatable bowing. |

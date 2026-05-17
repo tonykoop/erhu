@@ -2,6 +2,7 @@
   "packet_id": "erhu-prototype-qianjin-scale",
   "instrument": "erhu-inspired two-string vertical fiddle",
   "issue": "https://github.com/tonykoop/instrument-maker/issues/150",
+  "repo_issue": "https://github.com/tonykoop/erhu/issues/1",
   "readiness": "L2 V5 build-packet candidate",
   "readiness_level": "L2",
   "active_geometry": {
@@ -24,6 +25,9 @@
     "mcp_provenance": "cad/mcp-session-log.md",
     "visual_authority_register": "visual-output-register.csv",
     "validation_loop": "validation-loop.csv",
+    "qianjin_measurement_plan": "qianjin-measurement-plan.md",
+    "resonator_authority_gates": "resonator-authority-gates.csv",
+    "string_source_assumptions": "string-source-assumptions.csv",
     "risk_register": "risks.md",
     "wolfram_status": "source-only notes; no runtime execution claimed"
   },

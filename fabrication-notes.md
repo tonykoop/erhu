@@ -23,6 +23,10 @@ reviewed drawings, or physical templates are added and logged.
 6. Convert successful measured geometry into CAD/DXF only after pitch,
    bow-response, membrane-behavior, and material gates pass.
 
+Use `qianjin-measurement-plan.md` for the contact-point protocol. Use
+`string-source-assumptions.csv` to decide whether a string, tuning, or tension
+claim is still only a prototype assumption.
+
 ## Material And Acoustic Gates
 
 - Strings: record product ID, gauge or material, installed pitch, and observed
@@ -35,6 +39,8 @@ reviewed drawings, or physical templates are added and logged.
   attachment method, humidity, creep, tearing, and damping behavior.
 - Body: keep resonator geometry pending until a measured reference, reviewed
   drawing, or shop-validated prototype exists.
+- Resonator: use `resonator-authority-gates.csv` before converting any body,
+  membrane, bridge-contact, or joinery dimension into CAD/DXF authority.
 
 ## Do Not Assume
 
