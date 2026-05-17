@@ -4,6 +4,11 @@ Generated images are communication aids only. They must not be used as
 fabrication authority, dimension sources, measured templates, or substitutes
 for DXF/CAD.
 
+Concept image only; not fabrication authority.
+Do not include cut-ready dimensions, hole locations, or toolpaths.
+Fabrication dimensions are controlled by `cad/erhu-qianjin-scale-params.csv`
+and future reviewed CAD/DXF or measured templates.
+
 ## Image-Generation Prompt
 
 Create a clear workshop reference image of an erhu-inspired two-string vertical
@@ -24,4 +29,3 @@ or lightly angled, with clean lighting and no decorative fantasy details.
 - A long-scale string layout as canonical erhu geometry.
 - Dimensioned body or bridge values not present in this packet.
 - Toolpaths, cut lines, or measured templates unless derived from reviewed CAD.
-

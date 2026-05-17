@@ -6,4 +6,6 @@ ERH-VAL-004,bridge comparison,setup,required,At least two bridge variants are me
 ERH-VAL-005,string set evidence,sourcing,required,String gauges or product IDs are recorded,Packaging/source photo or supplier link,yes
 ERH-VAL-006,playability window,ergonomics,required,Player can stop/pull strings through usable pitch range without unsafe action,Setup notes and action measurements,yes
 ERH-VAL-007,visual authority,documentation,required,Generated images are labeled concept only and DXF/CAD/measurements remain authority,Visual register or review note,yes
-
+ERH-VAL-008,material legality and durability,material,required,Membrane/string/body materials are legal ethical stable and suitable for the shop environment,Material source notes humidity notes and failure observations,yes
+ERH-VAL-009,V5 provenance,documentation,required,MCP/tool provenance log exists and names authority limits for CAD DXF visuals and analysis,cad/mcp-session-log.md review,yes
+ERH-VAL-010,Wolfram/runtime honesty,analysis,required,Computational notes are source-only unless a Wolfram run log and outputs are committed,wolfram-study-notes.md or future run log,yes
