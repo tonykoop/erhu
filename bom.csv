@@ -1,0 +1,10 @@
+item_id,component,qty,unit,candidate_material,status,source_status,dimension_status,notes
+BOM-001,inner string,1,each,erhu-compatible metal string,planned,unverified_until_purchase,measurement_required,Record gauge material package and open pitch after install
+BOM-002,outer string,1,each,erhu-compatible metal string,planned,unverified_until_purchase,measurement_required,Record gauge material package and open pitch after install
+BOM-003,qianjin wrap,1,each,cord or thread wrap,planned,unverified_until_purchase,measurement_required,Final material and height need response testing
+BOM-004,bridge blank,1,each,hardwood bridge stock,planned,unverified_until_purchase,measurement_required,Do not cut final bridge until membrane and string setup are selected
+BOM-005,resonator body stock,1,each,wood or tube body stock,planned,unverified_until_purchase,measurement_required,Body geometry is TBD until measured drawing exists
+BOM-006,membrane or skin surface,1,each,skin or membrane candidate,planned,unverified_until_purchase,measurement_required,Material and tension behavior require validation before build claims
+BOM-007,neck or spike stock,1,each,wood shaft stock,planned,unverified_until_purchase,measurement_required,Length and taper must follow measured qianjin-to-bridge setup
+BOM-008,pegs or tuners,2,each,friction pegs or geared tuners,planned,unverified_until_purchase,measurement_required,Select after headstock or pegbox geometry is measured
+BOM-009,bow,1,each,erhu bow or prototype bow,planned,unverified_until_purchase,setup_required,Bow hair clearance and response must be tested between strings

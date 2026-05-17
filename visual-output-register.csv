@@ -1,0 +1,4 @@
+artifact_id,path,artifact_kind,role,authority,derived_from,dimension_claim,notes
+CAD-001,cad/future-erhu-body-model,cad,fabrication_geometry,fabrication,,derived_from_authority,Placeholder only no CAD file exists yet
+DXF-001,drawings/future-erhu-layout.dxf,dxf,dimensioned_drawing,fabrication,,derived_from_authority,Placeholder only future measured qianjin bridge and body geometry authority
+IMG-001,images/concepts/future-erhu-concept.png,image_gen_2_output,concept,concept_only,,none,Concept image placeholder only not fabrication authority

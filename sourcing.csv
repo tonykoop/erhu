@@ -1,0 +1,8 @@
+source_id,item_id,search_term_or_source,candidate_spec,verification_status,purchase_status,provenance_notes,next_action
+SRC-001,BOM-001,erhu inner string,compatible replacement inner string,not_checked,not_purchased,Placeholder only no current price or availability claim,Verify gauge material and vendor at purchase time
+SRC-002,BOM-002,erhu outer string,compatible replacement outer string,not_checked,not_purchased,Placeholder only no current price or availability claim,Verify gauge material and vendor at purchase time
+SRC-003,BOM-003,qianjin cord,stable wrap cord or thread,not_checked,not_purchased,Placeholder only no current price or availability claim,Test slip resistance and tonal effect
+SRC-004,BOM-004,hardwood bridge blank,small bridge stock or offcut,not_checked,not_purchased,Placeholder only no current price or availability claim,Choose after membrane and string setup are known
+SRC-005,BOM-005,resonator body stock,wood or tube stock for small resonator,not_checked,not_purchased,Placeholder only no current price or availability claim,Measure body target before sourcing final stock
+SRC-006,BOM-006,erhu membrane skin,skin or membrane candidate,not_checked,not_purchased,Placeholder only no current price or availability claim,Confirm legal ethical and durability constraints before use
+SRC-007,BOM-008,erhu pegs or tuners,two tuning devices,not_checked,not_purchased,Placeholder only no current price or availability claim,Match to measured neck or pegbox geometry
