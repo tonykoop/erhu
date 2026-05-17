@@ -20,6 +20,8 @@ setup.
 | `validation-loop.csv` | Measurement loop for qianjin, bridge, membrane, string, and acoustic gates. |
 | `qianjin-measurement-plan.md` | Contact-point measurement protocol and anti-violin-scale review rules. |
 | `resonator-authority-gates.csv` | Resonator, membrane, bridge-contact, and joinery gates before body CAD/DXF promotion. |
+| `resonator-photo-measurement-evidence.csv` | Resonator and membrane measurement-photo evidence register for body and opening capture. |
+| `membrane-bridge-contact-capture.csv` | Bridge + membrane contact comparison capture table for inner/outer string-side setup runs. |
 | `string-source-assumptions.csv` | Explicit string/source assumptions and evidence required before tuning or tension claims. |
 | `family-spec.csv` | Huqin/string-family starter rows with qianjin-to-bridge as the governing measurement. |
 | `fabrication-notes.md` | Setup-first fabrication notes with material/acoustic gates. |
@@ -70,3 +72,10 @@ Round 21 B2 adds explicit measurement and source gates for the next pass:
   until measured/reviewed resonator evidence exists.
 - `string-source-assumptions.csv` blocks pitch, tension, and scale claims unless
   the installed string source and bowed response are recorded.
+
+Round 23 adds the next evidence layer:
+
+- `resonator-photo-measurement-evidence.csv` captures orthographic photos and
+  measured dimensions for resonator body, wall thickness, and membrane seat.
+- `membrane-bridge-contact-capture.csv` captures inner/outer bridge-contact
+  observations before bridge geometry or material claims are promoted.
