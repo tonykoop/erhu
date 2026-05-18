@@ -2,7 +2,7 @@ gate_id,gate,type,required_status,pass_criteria,evidence_to_record,blocks_promot
 ERH-VAL-001,qianjin-to-bridge scale,geometry,required,Installed speaking length is within 380-420 mm and nominal target is documented,Photo plus ruler/caliper measurement,yes
 ERH-VAL-002,no long-scale canonical drift,documentation,required,No active CAD/BOM/design table uses the archived long-scale value as erhu geometry,Packet review note,yes
 ERH-VAL-003,membrane response,acoustic,required,Both strings produce repeatable bowed response with membrane installed,Audio/tuner capture and membrane notes,yes
-ERH-VAL-004,bridge comparison,setup,required,At least two bridge variants are measured and compared,Bridge height mass photo and response notes,yes
+ERH-VAL-004,bridge comparison,setup,required,At least two bridge variants are measured and compared,Bridge height mass photo and response notes plus membrane-bridge-contact-capture.csv,yes
 ERH-VAL-005,string set evidence,sourcing,required,String gauges or product IDs are recorded,Packaging/source photo or supplier link,yes
 ERH-VAL-006,playability window,ergonomics,required,Player can stop/pull strings through usable pitch range without unsafe action,Setup notes and action measurements,yes
 ERH-VAL-007,visual authority,documentation,required,Generated images are labeled concept only and DXF/CAD/measurements remain authority,Visual register or review note,yes
@@ -13,3 +13,5 @@ ERH-VAL-011,contact-point measurement plan,geometry,required,Inner and outer qia
 ERH-VAL-012,resonator authority gates,documentation,required,Body membrane bridge-contact and joinery geometry remain blocked until measured or reviewed authority exists,resonator-authority-gates.csv review note,yes
 ERH-VAL-013,string/source assumption gate,sourcing,required,String gauge material product ID installed tuning and bowed response are recorded before pitch or tension claims,string-source-assumptions.csv plus source photos/tuner evidence,yes
 ERH-VAL-014,anti-violin-family overclaim review,documentation,required,No active artifact treats violin nut-to-bridge scale total instrument length or generated silhouette as erhu speaking length,Packet review note with search evidence,yes
+ERH-VAL-015,resonator measurement evidence,documentation,required,Front/side resonator and membrane-seat dimensions are captured with orthographic photos and caliper notes,resonator-photo-measurement-evidence.csv,yes
+ERH-VAL-016,bridge-membrane contact evidence,setup,required,At least one bridge variant has measured foot/contact and membrane coupling notes in a repeatable capture log,membrane-bridge-contact-capture.csv and PHOTO-010/PHOTO-011,yes

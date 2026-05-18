@@ -13,3 +13,5 @@ review provenance only and does not promote the packet beyond L2.
 | 2026-05-17T18:17:31Z | codex | qianjin-measurement-plan.md | B2-r21 | design.md | measurement_plan | Round 21 B2 contact-point protocol; no physical measurement executed. |
 | 2026-05-17T18:17:31Z | codex | resonator-authority-gates.csv | B2-r21 | drawing-brief.md | authority_gate | Blocks resonator and membrane CAD/DXF promotion until measured/reviewed evidence exists. |
 | 2026-05-17T18:17:31Z | codex | string-source-assumptions.csv | B2-r21 | bom.csv | source_gate | Blocks string pitch/tension/source claims until source and installed response evidence exists. |
+| 2026-05-17T18:17:31Z | codex | resonator-photo-measurement-evidence.csv | A4-r23 | photo-shotlist.md | evidence_register | Adds explicit resonator photo/measurement evidence rows for body and membrane-seat capture planning. |
+| 2026-05-17T18:17:31Z | codex | membrane-bridge-contact-capture.csv | A4-r23 | qianjin-measurement-plan.md | capture_template | Adds membrane/bridge-contact comparison rows (inner/outer) to block bridge-material claims before data exists. |

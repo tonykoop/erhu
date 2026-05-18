@@ -26,6 +26,8 @@
     "visual_authority_register": "visual-output-register.csv",
     "validation_loop": "validation-loop.csv",
     "qianjin_measurement_plan": "qianjin-measurement-plan.md",
+    "resonator_photo_measurement_evidence": "resonator-photo-measurement-evidence.csv",
+    "membrane_bridge_contact_capture": "membrane-bridge-contact-capture.csv",
     "resonator_authority_gates": "resonator-authority-gates.csv",
     "string_source_assumptions": "string-source-assumptions.csv",
     "risk_register": "risks.md",
