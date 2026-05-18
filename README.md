@@ -34,6 +34,8 @@ setup.
 | `photo-shotlist.md` | Measurement/reference photo list for the next builder. |
 | `wolfram-study-notes.md` | Source-only computational study notes; no runtime validation claimed. |
 | `manifest.json` | Machine-readable packet metadata and issue linkage. |
+| `capstone-manifest.json` | Explorer-facing manifest that repeats the public-release and authority gates. |
+| `explorer.html` | Generated studio explorer for reviewing the packet surface and caveats. |
 
 ## Active Scale
 

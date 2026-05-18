@@ -1,0 +1,63 @@
+{
+  "title": "Erhu Bare-Bones Starter Packet",
+  "instrument": "erhu-inspired two-string vertical fiddle",
+  "build_target": "qianjin-to-bridge setup-scale prototype",
+  "artifact_focus": "L2 starter packet for qianjin-to-bridge measurement planning",
+  "release_status": "L2 V5 build-packet candidate",
+  "packet_version": "barebones-r3-starter",
+  "family_members": [
+    "erhu",
+    "huqin",
+    "spike fiddle",
+    "bowed string"
+  ],
+  "cultural_provenance": {
+    "claim": "This explorer indexes an erhu-inspired prototype packet for measurement planning. It does not claim measured erhu craft authority, reviewed full-instrument CAD, or validated acoustic performance."
+  },
+  "physical_design_anchors": {
+    "dimension_basis": "qianjin-to-bridge speaking length",
+    "nominal_mm": "400 mm",
+    "setup_range_mm": "380-420 mm",
+    "authority_scope": "setup strip only; body, bridge, membrane, string set, qianjin height, pegs, neck, and joinery remain TBD",
+    "fabrication_authority": "cad/erhu-qianjin-scale-params.csv and drawings/erhu-qianjin-scale-starter.dxf only"
+  },
+  "release_gate": {
+    "public_candidate": false,
+    "required_before_public": [
+      "Measure installed qianjin-to-bridge contact-point spans with photo evidence.",
+      "Record bridge height, mass, foot geometry, placement, and bowed response.",
+      "Record membrane material, tension method, humidity notes, and acoustic response.",
+      "Record installed string source, gauge or product ID, open-string pitch, and tuner/audio evidence.",
+      "Review resonator/body/neck/peg/joinery CAD or DXF before promoting any full-instrument fabrication geometry.",
+      "Keep Wolfram/OpenSCAD notes source-only unless runtime commands and outputs are committed.",
+      "Obtain erhu-specific measured reference, builder, teacher, or player review before public build guidance."
+    ]
+  },
+  "engineering": {
+    "authority_register": "visual-output-register.csv",
+    "validation_gates": "validation.csv",
+    "validation_loop": "validation-loop.csv",
+    "qianjin_measurement_plan": "qianjin-measurement-plan.md",
+    "resonator_authority_gates": "resonator-authority-gates.csv",
+    "string_source_assumptions": "string-source-assumptions.csv",
+    "mcp_provenance": "cad/mcp-session-log.md",
+    "wolfram": []
+  },
+  "sources": [
+    {
+      "title": "Existing packet manifest",
+      "credit": "Repo-local L2 packet metadata and authority boundary",
+      "url": "manifest.json"
+    },
+    {
+      "title": "Design notes",
+      "credit": "Qianjin-to-bridge setup-scale design basis",
+      "url": "design.md"
+    },
+    {
+      "title": "Measurement plan",
+      "credit": "Contact-point measurement protocol and anti-overclaim checks",
+      "url": "qianjin-measurement-plan.md"
+    }
+  ]
+}
