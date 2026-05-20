@@ -20,6 +20,7 @@ setup.
 | `validation-loop.csv` | Measurement loop for qianjin, bridge, membrane, string, and acoustic gates. |
 | `qianjin-measurement-plan.md` | Contact-point measurement protocol and anti-violin-scale review rules. |
 | `resonator-authority-gates.csv` | Resonator, membrane, bridge-contact, and joinery gates before body CAD/DXF promotion. |
+| `neck-peg-bridge-authority-gates.csv` | Neck, peg, scroll, spike, bridge-object, and string-spacing gates before non-resonator geometry CAD/DXF promotion. |
 | `resonator-photo-measurement-evidence.csv` | Resonator and membrane measurement-photo evidence register for body and opening capture. |
 | `membrane-bridge-contact-capture.csv` | Bridge + membrane contact comparison capture table for inner/outer string-side setup runs. |
 | `string-source-assumptions.csv` | Explicit string/source assumptions and evidence required before tuning or tension claims. |
@@ -79,3 +80,10 @@ Round 23 adds the next evidence layer:
   measured dimensions for resonator body, wall thickness, and membrane seat.
 - `membrane-bridge-contact-capture.csv` captures inner/outer bridge-contact
   observations before bridge geometry or material claims are promoted.
+
+Round 35a adds gates for the non-resonator geometry surface:
+
+- `neck-peg-bridge-authority-gates.csv` blocks neck, peg, scroll, spike,
+  bridge-object, and string-spacing CAD/DXF promotion until measured or
+  shop-reviewed evidence is recorded. The setup-strip DXF does not authorize
+  any of these surfaces.

@@ -30,6 +30,13 @@ Before any resonator drawing is promoted, check `resonator-authority-gates.csv`.
 The setup-strip DXF does not imply body outline, membrane opening, wall
 thickness, bridge-contact area, neck/body joinery, or full assembly authority.
 
+Before any neck, body-assembly, bridge-object, peg, scroll, spike, or
+string-spacing drawing is promoted, check `neck-peg-bridge-authority-gates.csv`.
+Items 2, 3, and the bridge portion of item 4 above must clear the relevant
+`NPB-GATE-*` rows (neck length and cross-section for item 2; bridge footprint,
+height, and string-spacing for item 3; spike length and seat for item 4's
+retaining geometry) before measured or fabricable drawings can be promoted.
+
 ## Visual Authority Rule
 
 Use DXF, CAD, design tables, measured templates, or reviewed drawings as
