@@ -41,7 +41,15 @@
     "resonator_authority_gates": "resonator-authority-gates.csv",
     "string_source_assumptions": "string-source-assumptions.csv",
     "mcp_provenance": "cad/mcp-session-log.md",
-    "wolfram": []
+    "wolfram": [
+      {
+        "source_file": "strings/erhu/erhu-starter.wl",
+        "cloud_path": "Musical_Instruments/strings/erhu/erhu-starter.wl",
+        "cloud_url": "https://www.wolframcloud.com/obj/wrfcoin/Musical_Instruments/strings/erhu/erhu-starter.wl",
+        "permission": "Public-Execute",
+        "kind": "acoustics-starter"
+      }
+    ]
   },
   "sources": [
     {
