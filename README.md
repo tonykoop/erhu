@@ -39,6 +39,7 @@ setup.
 | `manifest.json` | Machine-readable packet metadata and issue linkage. |
 | `capstone-manifest.json` | Explorer-facing manifest that repeats the public-release and authority gates. |
 | `explorer.html` | Generated studio explorer for reviewing the packet surface and caveats. |
+| `evolution/` | Stage 0 evolution-pipeline intake (master manifest, design intent, revision register). Gate A not yet run. |
 
 ## Active Scale
 
