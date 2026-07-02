@@ -1,0 +1,34 @@
+{
+  "product": "erhu",
+  "pipeline": "studiopipeline:evolution-pipeline",
+  "stage": "0-intake",
+  "master_revision": "rev-A (pre-commit intake, 2026-07-01)",
+  "generated": "2026-07-01",
+  "cad_masters": [
+    {
+      "path": "cad/erhu-qianjin-scale.scad",
+      "format": "openscad-source",
+      "sha256": "5928d55204206b8ba9fc7627088fc91bc7ef688bf55885bebb6a7d4897c2c3d6",
+      "authority": "derived_preview",
+      "lossy": false,
+      "notes": "Existing setup-strip master (qianjin-to-bridge scale marks). Source-only per visual-output-register.csv CAD-001; NOT full instrument geometry. Kept as-is this pass; render check passed (openscad -o STL, exit 0)."
+    },
+    {
+      "path": "cad/erhu-qianjin-scale-params.csv",
+      "format": "design-table",
+      "sha256": "d70d00e194a4c971a370e46e350d9d53a96f753b0f555e2d20f13318b31af2e9",
+      "authority": "fabrication",
+      "lossy": false,
+      "notes": "Design table controlling only the 380/400/420 mm qianjin-to-bridge setup marks."
+    },
+    {
+      "path": "erhu-starter.wl",
+      "format": "wolfram-source",
+      "sha256": "6147e0a9e8bb2b686a5f1b778db364c14ed838db0b88ee7cf0043cbf1bac59f4",
+      "authority": "derived_preview",
+      "lossy": false,
+      "notes": "Wolfram source scaffold; not executed. L2 evidence."
+    }
+  ],
+  "notes": "OpenSCAD source captures only the qianjin-to-bridge setup strip (the sole promoted scale); resonator, membrane, bridge, and body geometry remain TBD/measurement-gated (resonator-authority-gates.csv, neck-peg-bridge-authority-gates.csv). No STEP/DXF instrument export beyond the retained setup-strip DXF. Gate A (Alpha workspace compile) not yet run."
+}

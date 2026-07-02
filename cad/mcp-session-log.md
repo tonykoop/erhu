@@ -8,6 +8,7 @@ review provenance only and does not promote the packet beyond L2.
 | --- | --- | --- | --- | --- | --- | --- |
 | 2026-05-17T15:54:32Z | design-table | cad/erhu-qianjin-scale-params.csv | unknown | design.md | design_table | V5 starter table for qianjin-to-bridge setup marks only. |
 | 2026-05-17T15:54:32Z | openscad | cad/erhu-qianjin-scale.scad | unknown | cad/erhu-qianjin-scale-params.csv | cad_source | Source-only starter; OpenSCAD was not executed in this lane. |
+| 2026-07-01T00:00:00Z | openscad | cad/erhu-qianjin-scale.scad | fable-v5-refresh-2026-07-01 | cad/erhu-qianjin-scale-params.csv | cad_source | V5 refresh render check: openscad -o STL exit 0 (renders clean). Kept as-is, no rewrite. Still source-only setup-strip authority; not full instrument geometry. |
 | 2026-05-17T15:54:32Z | design-table | drawings/erhu-qianjin-scale-starter.dxf | unknown | cad/erhu-qianjin-scale-params.csv | derived_preview | Existing mainline DXF retained; V5 layer review remains a gate. |
 | 2026-05-17T15:54:32Z | codex-image-gen-2 | visual-bom-brief.md | unknown | drawings/erhu-qianjin-scale-starter.dxf | concept_only | Prompt text only; no generated image output committed. |
 | 2026-05-17T18:17:31Z | codex | qianjin-measurement-plan.md | B2-r21 | design.md | measurement_plan | Round 21 B2 contact-point protocol; no physical measurement executed. |
